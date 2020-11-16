@@ -39,7 +39,7 @@
     │   │   
     │   ├── #3_knu_score
     │   │
-    │   ├── #3_new_dict_score
+    │   ├── #4_result
     │   │
     │   └── category
     │       │
