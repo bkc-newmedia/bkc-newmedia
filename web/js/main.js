@@ -157,7 +157,7 @@ var chart = new Chart(secChart0502, {
   }
 });
 
-var labelArray = ["경제", "사회","생활문화","세계","연예","정치","IT 과학"],
+var labelArray = ['세계','정치','IT과학','연예','생활문화','경제','사회'],
     positiveData01 = [8.13, 36.21, 86.19, 79.87, 64.96, 71.99, 38.14],
     negativeData01 = [91.87, 63.79, 13.81, 20.13, 35.04, 28.01, 61.86];
 var secChart06 = document.getElementById('sec-06-chart').getContext('2d');
@@ -202,7 +202,7 @@ var chart = new Chart(secChart06, {
   }
 });
 
-var labelArray = ["경제", "사회","생활문화","세계","연예","정치","IT 과학"],
+var labelArray = ['세계','정치','IT과학','연예','생활문화','경제','사회'],
   positiveData02 = [9.68, 23.18,73.80, 81.00, 59.85, 71.29, 12.16],
   negativeData02 = [90.32, 76.82, 26.20, 19.00, 40.15, 28.71, 87.84];
 var secChart07 = document.getElementById('sec-07-chart').getContext('2d');
