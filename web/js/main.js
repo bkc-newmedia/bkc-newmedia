@@ -86,7 +86,7 @@ var chart = new Chart(secChart0202, {
 //     options: {}
 // });
 
-var labelArray = ["경제", "사회","생활문화","세계","연예","정치","IT 과학"],
+var labelArray = ['세계','정치','IT과학','연예','생활문화','경제','사회'],
     positiveData0501 = [16.7
       ,6.8
       ,2.9
@@ -127,7 +127,7 @@ var chart = new Chart(secChart0501, {
     }
   }
 });
-var labelArray = ["경제", "사회","생활문화","세계","연예","정치","IT 과학"],
+var labelArray = ['세계','정치','IT과학','연예','생활문화','경제','사회'],
     positiveData0502 = [9.8
       ,1.8
       ,1.3
