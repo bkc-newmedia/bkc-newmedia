@@ -21,7 +21,7 @@ var chart = new Chart(secChart0201, {
         datasets: [{
             label: 'My First dataset',
             backgroundColor: ["rgb(246, 197, 45)",'rgb(53, 155, 189)'],
-            data: [3072437, 3410490]
+            data: [100, 0]
         }]
     },
     options: {
