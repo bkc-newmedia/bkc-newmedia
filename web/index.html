@@ -1,0 +1,266 @@
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0 ,maximum-scale=1.0, minimum-scale=1.0,user-scalable=no,target-densitydpi=medium-dpi">
+    <title>newmedia</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="gnb_btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
+    </div>
+    <div class="gnb">
+        <div class="floating-menu">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+                </svg></p>
+            <ul>
+                <li class="m"><a href=".top-area" class="menu-01"><span>INTRO</span></a></li>
+                <li class="m"><a href="#section-02" class="menu-02"><span>MOTIVE & PURPOSE</span></a></li>
+                <li class="m"><a href="#section-03" class="menu-03"><span>PROCESS & RESULT</span></a></li>
+                <li class="m"><a href="#section-04" class="menu-04"><span>ANALYSIS</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="top-area scroll">
+        <div class="img-box">
+            <img src="images/mainimg@2x.png" alt="">
+        </div>
+        <p><span>매일 소식을 전달하는 뉴스</span>여성은 그 안에 어떻게 자리잡고 있을까</p>
+    </div>
+    <div class="wrap scroll">
+        <div class="motive-box ">
+            <div class="left-area">
+                <img src="images/profile.png" alt="">
+                <p>미국의 배우이자<br />미디어양성평등연구소를 운영 중인</p>
+                <span>지나 데이비스</span>
+            </div>
+            <div class="right-area">
+                <h3 class="box-tit">MOTIVE & PURPOSE</h3>
+                <p>그녀는 사람들이 무의식적으론 여성차별을 인지하고 있더라도 그들이 ‘얼마나’ 차별을 받는지는 모른다고 합니다. 이를 수치화 했을 때, 여성과 남성 모두가 놀랐다고 합니다. 다들 그
+                    정도일줄은 몰랐다는 겁니다. 구체적인 수치를 보여주자 사람들은 양성평등을 위한 행동을 시작했다고 합니다.</p>
+                <p>그래서 지나 데이비스는 미디어의 여성 차별을 모두 수치화 하였고, 지나 데이비스가 디즈니에서 이에 대해 강연을 하고 난 뒤에 디즈니에서는 최초로 여성 2명이 주인공인, ‘겨울왕국’의
+                    제작을 시작했습니다. </p>
+                <p>여성 차별의 수치화는 단순히 수치만으로도 사람들이 양성평등 의식을 재고하게 해주고, 양성평등을 위한 노력에 의의를 부여해줍니다. 따라서 우리는 전공과 지식을 활용하여 사회 현상을
+                    분석하고, 사회 현상 속의 여성 차별을 수치화 하려 합니다. 수치화하고 이를 사회에 알려, 대중의 양성평등 의식 향상에 긍정적인 영향을 끼치고자 합니다. IT의 활용은
+                    가지각색인데요, IT지식은 특권이 아닌 책임이라고 생각합니다. 저희의 전공에 책임을 가지고, 지식을 이용해 기울어진 운동장에서 여성이 어디에 있는지 찾아 사람들에게 알리는 것이
+                    목표입니다. </p>
+            </div>
+        </div>
+        <div class="process-box scroll">
+            <h3 class="box-tit">PROCESS & RESULT</h3>
+            <ul class="deplist">
+                <li>
+                    <p class="list-tit">
+                        데이터 수집
+                    </p>
+                    <div class="text-sec">
+                        <div>
+                            <p>200년도 ~ 2019년도 기사</p>
+                            <span>('여성','여자','남성','남자'가 포함된 기사)</span>
+                        </div>
+                        <p><em class="c01">10,724,446건</em></p>
+                    </div>
+                </li>
+                <li>
+                    <p class="list-tit">
+                        데이터 전처리
+                    </p>
+                    <div class="text-sec">
+                        <span>HTML에서 본문 추출, 불용어 제거</span>
+                    </div>
+                </li>
+                <li>
+                    <p class="list-tit">
+                        데이터 모델링
+                    </p>
+                    <div class="text-sec">
+                        <ul>
+                            <li>
+                                <span>1차 긍부정 분류 :</span>
+                                <p>KNU 한국어 감성사전으로 제목 + 본문의 긍부정 Score 측정</p>
+                            </li>
+                            <li>
+                                <span>2차 긍부정 분류 :</span>
+                                <p>1차 긍부정 분류된 데이터 중 긍정 상위 Score 데이터 104,857개, 부정상위 Score 데이터 104,857개를 추출하여 ELECTRA를
+                                    fine-tuning한 Sentiment classification model 구현 => 성별 기사의 긍부정 예측</p>
+                            </li>
+                            <li>
+                                <span>카테고리 분류 :</span>
+                                <p>2005년도 ~ 2019년도 네이버 7개 카테고리(경제, 사회, 생활문화, 세계, 연예, 정치, IT뉴스) 랭킹뉴스로 ELECTRA를
+                                    fine-tuning하여 Category classification model 구현 => 성별 기사의 카테고리 예측 </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </li>
+            </ul>
+            <p class="info">* ELECTRA : Pre-training Text Encoders as Discriminators Rather Than Genera (Clark et
+                al , 2020)</p>
+            <ul class="process-ul">
+                <li>
+                    <p>sentiment model</p>
+                    <p>정확도</p>
+                    <p>95%</p>
+                </li>
+                <li>
+                    <p>category model</p>
+                    <p>정확도</p>
+                    <p>99%</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="analysis scroll">
+        <h3 class="box-tit">ANALYSIS</h3>
+        <!-- <div class="sec-01">
+            <div class="wrap">
+                <div class="tit-sec">
+                    <p>여성과 남성 중, 기사에 더 자주 언급되는 성별은?</p>
+                    <span>2000 ~ 2020년 자료 수집 결과, 여성과 남성 언급 기사 ---건 중</span>
+                </div>
+                <canvas id="sec-01-chart"></canvas>
+            </div>
+        </div> -->
+        <div class="sec-02">
+            <div class="wrap">
+                <div class="tit-sec">
+                    <p>여성은 기사 속에서 긍정적으로 언급될까 부정적으로 언급될까?</p>
+                </div>
+                <div class="chart-sec">
+                    <div>
+                        <canvas style="width:50vw; height:40vh;" id="sec-02-chart-01"></canvas>
+                    </div>
+                    <div>
+                        <canvas style="width:50vw; height:40vh;" id="sec-02-chart-02"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sec-03">
+            <div class="wrap">
+                <h5>여성 언급 뉴스 워드 클라우드</h5>
+                <img src="https://via.placeholder.com/1140x500" alt="">
+                <!-- <canvas id="sec-03-chart"></canvas> -->
+            </div>
+        </div>
+        <div class="sec-04">
+            <div class="wrap">
+                <h5>남성 언급 뉴스 워드 클라우드</h5>
+                <img src="https://via.placeholder.com/1140x500" alt="">
+                <!-- <canvas id="sec-04-chart"></canvas> -->
+            </div>
+        </div>
+        <div class="sec-05">
+            <div class="wrap">
+                <div class="tit-sec">
+                    <p>뉴스의 어느 분야에서 여성과 남성이 가장 많이 언급될까?</p>
+                </div>
+                <div class="chart-sec">
+                    <div><canvas style="width:50vw; height:40vh;" id="sec-05-chart-01"></canvas></div>
+                    <div><canvas style="width:50vw; height:40vh;" id="sec-05-chart-02"></canvas></div>
+                </div>
+                <div class="text-sec">
+                    <p><em>여성</em>은 사회 분야에서 28%로 가장 많이 언급되고 정치 분야에서 14%로 가장 적게 언급되었습니다.</p>
+                    <p><em>남성</em>은 사회 분야에서 28%로 가장 많이 언급되고 정치 분야에서 14%로 가장 적게 언급되었습니다.</p>
+                </div>
+            </div>
+        </div>
+        <div class="sec-06 sec">
+            <div class="layer-box">
+                <div class="con-sec">
+                    <h4>반면 각 분야에서 <em class="c01">여성</em>의 긍정적, 부정적 언급 비율은?</h4>
+                    <canvas id="sec-06-chart"></canvas>
+                    <p>여성은 사회 분야에서 --%로 부정적으로 다뤄지고 경제에서 --%, 문화에서 --% 순으로 부정적으로 나타나고 있습니다</p>
+                </div>
+            </div>
+        </div>
+        <div class="sec-07 sec">
+            <div class="layer-box">
+                <div class="con-sec">
+                    <h4>반면 각 분야에서 <em class="c01">남성</em>의 긍정적, 부정적 언급 비율은?</h4>
+                    <canvas id="sec-07-chart"></canvas>
+                    <p>남성은 사회 분야에서 --%로 부정적으로 다뤄지고 경제에서 --%, 문화에서 --% 순으로 부정적으로 나타나고 있습니다</p>
+                </div>
+            </div>
+        </div>
+        <div class="sec-08">
+            <div class="wrap">
+                <div class="title">
+                    <span>사회분야에서 여성과 남성이 가장 많이 언급됨을 파악했습니다.</span>
+                    <span>그 안을 들여다보면</span>
+                    <span>여성은 유독 부정적으로 남성은 유독 긍정적으로 표현하는 것을 확인했습니다.</span>
+                </div>
+                <canvas style="width:50vw; height:40vh;" id="sec-08-chart"></canvas>
+            </div>
+        </div>
+        <div class="sec-09">
+            <div class="wrap">
+                <h4>여성 남성 <em class="c01">긍정적</em> 언급 연도별 추이</h4>
+                <canvas id="sec-09-chart"></canvas>
+                <p>남성의 긍정적 언급이 여성보다 많고 연도별로 긍정적 언급이 늘어나고있음</p>
+            </div>
+        </div>
+        <div class="sec-10">
+            <div class="wrap">
+                <h4>여성 남성 <em class="c01">부정적</em> 언급 연도별 추이</h4>
+                <canvas id="sec-10-chart"></canvas>
+                <p>여성의 부정적 언급이 남성보다 많고 부정적언급빈도수가 최신일수록 줄어들고 있긴 하지만 더딤을 알 수 있다. 의식이 개선되고 있음으로 보이지만 더욱더 노력해 평등한 언론보도를
+                    희망한다.</p>
+            </div>
+            <div class="overcome">
+                <div class="tit-sec">
+                    <h3>결론</h3>
+                </div>
+            </div>
+        </div>
+        <div class="sec-11">
+            <div class="wrap">
+                <div class="top-box">
+                    <p class="title">수집 데이터</p>
+                    <ul>
+                        <li>
+                            <img src="images/icon1@2x.png" alt="">
+                            <span>네이버</span>
+                            <span>카테고리별 랭킹뉴스</span>
+                        </li>
+                        <li>
+                            <img src="images/icon2@2x.png" alt="">
+                            <span>네이버뉴스</span>
+                            <span>2000 ~ 2020년 데이터</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bottom-box">
+                    <p class="title">사용한 툴</p>
+                    <ul>
+                        <li>
+                            <p>데이터 분석 : python pandas, numpy</p>
+                            <p>데이터 수집 : beautifulsoup</p>
+                        </li>
+                        <li>
+                            <p>협업 : github</p>
+                            <p>시각화 : seaborn, matplotlib</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="wrap">
+            <p>뉴미디어 Contact mail : example@gamil.com</p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
