@@ -169,9 +169,9 @@ var chart = new Chart(secChart0502, {
   }
 });
 
-var labelArray = ['세계','정치','IT과학','연예','생활문화','경제','사회'],
-    positiveData01 = [8.13, 36.21, 86.19, 79.87, 64.96, 71.99, 38.14],
-    negativeData01 = [91.87, 63.79, 13.81, 20.13, 35.04, 28.01, 61.86];
+var labelArray = ["경제", "사회","생활문화","세계","연예","정치","IT 과학"],
+    positiveData01 = [55, 82, 24, 24, 54, 34, 12],
+    negativeData01 = [45, 18, 76, 76, 46, 66, 88];
 var secChart06 = document.getElementById('sec-06-chart').getContext('2d');
 var chart = new Chart(secChart06, {
   type: 'horizontalBar',
@@ -214,9 +214,9 @@ var chart = new Chart(secChart06, {
   }
 });
 
-var labelArray = ['세계','정치','IT과학','연예','생활문화','경제','사회'],
-  positiveData02 = [9.68, 23.18,73.80, 81.00, 59.85, 71.29, 12.16],
-  negativeData02 = [90.32, 76.82, 26.20, 19.00, 40.15, 28.71, 87.84];
+var labelArray = ["경제", "사회","생활문화","세계","연예","정치","IT 과학"],
+  positiveData02 = [55, 82, 24, 24, 54, 34, 12],
+  negativeData02 = [45, 18, 76, 76, 46, 66, 88];
 var secChart07 = document.getElementById('sec-07-chart').getContext('2d');
 var chart = new Chart(secChart07, {
   type: 'horizontalBar',
@@ -283,13 +283,16 @@ var chart = new Chart(secChart09, {
             label: '여성',
             backgroundColor: ["rgb(246, 197, 45)"],
             borderColor: "rgb(246, 197, 45)",
-            data: [5, 3, 3, 4, 5, 6, 7, 8, 20, 4, 20],
+            data: [5742,	8878,	13369,
+              	16875,32238,47851,67444,88238,102850,150155,154676,183614,196755,278833,374800,446124,332980,309685,318375,281008
+            ],
             fill: false
         }, {
             label: '남성',
             backgroundColor: ['rgb(53, 155, 189)'],
             borderColor: 'rgb(53, 155, 189)',
-            data: [20, 13, 33, 64, 35, 16, 7, 8, 20, 4, 20],
+            data: [2700,4160,6502,8357,16693,30414,44588,51422,58899,100022,102248,128534,158869,212762,292607,326000,231877,204667,205591,179426
+            ],
             fill: false
         }]
     },
@@ -306,13 +309,15 @@ var chart = new Chart(secChart10, {
             backgroundColor: ["rgb(246, 197, 45)"],
             borderColor: "rgb(246, 197, 45)",
             
-            data: [20, 13, 33, 64, 35, 16, 7, 8, 20, 4, 20],
+            data: [6219,8852,16020,22677,42207,50262,67439,89563,98410,124304,118355,132364,164125,218280,276896,364106,325017,291384,328168,327789
+            ],
             fill: false
         }, {
             label: '남성',
             backgroundColor: ['rgb(53, 155, 189)'],
-            borderColor: 'rgb(53, 155, 189)',
-            data: [5, 3, 3, 4, 5, 6, 7, 8, 20, 4, 20],
+            borderColor: 'rgb(53             , 155, 189)',
+            data: [3073,4701,7638,12174,22315,30483,39120,48442,54155,78057,72594,87253,105274,142964,188902,242221,202778,181509,207519,204009
+            ],
             fill: false
         }]
     },
