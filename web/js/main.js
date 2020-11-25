@@ -21,7 +21,7 @@ var chart = new Chart(secChart0201, {
         datasets: [{
             label: 'My First dataset',
             backgroundColor: ["rgb(246, 197, 45)",'rgb(53, 155, 189)'],
-            data: [3072437, 3410490]
+            data: [3410490, 3072437]
         }]
     },
     options: {
@@ -44,7 +44,7 @@ var chart = new Chart(secChart0202, {
         datasets: [{
             label: 'My First dataset',
             backgroundColor: [ "rgb(246, 197, 45)",'rgb(53, 155, 189)'],
-            data: [1935181, 2366338]
+            data: [2366338,1935181]
         }]
     },
     options: {
@@ -87,7 +87,13 @@ var chart = new Chart(secChart0202, {
 // });
 
 var labelArray = ["경제", "사회","생활문화","세계","연예","정치","IT 과학"],
-    positiveData0501 = [55, 82, 24,24,54,34,12];
+    positiveData0501 = [16.7
+      ,6.8
+      ,2.9
+      ,32.5
+      ,17.8
+      ,6.2
+      ,17.1];
 var secChart0501 = document.getElementById('sec-05-chart-01').getContext('2d');
 var chart = new Chart(secChart0501, {
   type: 'pie',
@@ -122,7 +128,13 @@ var chart = new Chart(secChart0501, {
   }
 });
 var labelArray = ["경제", "사회","생활문화","세계","연예","정치","IT 과학"],
-    positiveData0502 = [55, 82, 24,24,54,34,12];
+    positiveData0502 = [9.8
+      ,1.8
+      ,1.3
+      ,30.5
+      ,10.6
+      ,2.7
+      ,9.6];
 var secChart0502 = document.getElementById('sec-05-chart-02').getContext('2d');
 var chart = new Chart(secChart0502, {
   type: 'pie',
