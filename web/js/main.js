@@ -192,7 +192,7 @@ var chart = new Chart(secChart06, {
       },
       {
         label: '중립적 %',
-        data: negativeData01,
+        data: neutralData01,
         backgroundColor: 'rgb(245, 147, 37)',
         borderColor: 'rgb(245, 147, 37)',
       }
