@@ -170,9 +170,9 @@ var chart = new Chart(secChart0502, {
 });
 
 var labelArray = ['경제','사회','생활문화','세계','연예','정치','IT과학'],
-    positiveData01 = [19.86, 8.51, 35.72, 1.65, 26.50, 7.22, 24.77], 
-    negativeData01 = [26.51, 60.69, 26.60, 91.55, 18.27, 61.34, 11.86], 
-    neutralData01 = [53.63, 30.80, 37.68, 6.80, 55.23, 31.44, 63.37]; 
+    positiveData01 = [19.45, 8.26, 31.61, 1.58, 25.90, 6.76, 24.23],
+    negativeData01 = [28.01, 61.86, 35.04, 91.88, 20.13, 63.79, 13.81],
+    neutralData01 = [52.54, 29.88, 33.35, 6.54, 53.97, 29.45, 61.96];
 var secChart06 = document.getElementById('sec-06-chart').getContext('2d');
 var chart = new Chart(secChart06, {
   type: 'horizontalBar',
@@ -222,9 +222,9 @@ var chart = new Chart(secChart06, {
 });
 
 var labelArray = ['경제','사회','생활문화','세계','연예','정치','IT과학'],
-  positiveData02 = [23.75, 2.43, 37.24, 1.77, 26.86, 5.40, 26.27],
-  negativeData02 = [27.25, 87.52, 33.58, 89.97, 16.85, 75.46, 24.22];
-  neutralData02 = [48.99, 10.05, 29.18, 8.26, 56.29, 19.14, 49.51];
+  positiveData02 = [23.28, 2.37, 33.56, 1.71, 26.16, 5.10, 25.58],
+  negativeData02 = [28.71, 87.84, 40.15, 90.32, 19.00, 76.82, 26.20],
+  neutralData02 = [48.01, 9.79, 26.29, 7.97, 54.84, 18.08, 48.22];
 var secChart07 = document.getElementById('sec-07-chart').getContext('2d');
 var chart = new Chart(secChart07, {
   type: 'horizontalBar',
