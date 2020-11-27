@@ -170,9 +170,9 @@ var chart = new Chart(secChart0502, {
 });
 
 var labelArray = ['경제','사회','생활문화','세계','연예','정치','IT과학'],
-    positiveData01 = [19.86, 8.51, 35.72, 1.65, 26.50, 7.22, 24.77],
-    negativeData01 = [26.51, 60.69, 26.60, 91.56, 18.27, 61.34, 11.86],
-    neutralData01 = [53.63, 30.80, 37.68, 6.80, 55.23, 31.44, 63.37];
+    positiveData01 = [19.86, 8.51, 35.72, 1.65, 26.50, 7.22, 24.77], 
+    negativeData01 = [26.51, 60.69, 26.60, 91.55, 18.27, 61.34, 11.86], 
+    neutralData01 = [53.63, 30.80, 37.68, 6.80, 55.23, 31.44, 63.37]; 
 var secChart06 = document.getElementById('sec-06-chart').getContext('2d');
 var chart = new Chart(secChart06, {
   type: 'horizontalBar',
