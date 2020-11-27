@@ -274,19 +274,19 @@ var chart = new Chart(secChart07, {
 });
 
 
-//var secChart08 = document.getElementById('sec-08-chart').getContext('2d');
-//var chart = new Chart(secChart08, {
-    //type: 'pie',
-    //data: {
-        //labels: ['여성', '남성'],
-        //datasets: [{
-            //label: 'My First dataset',
-            //backgroundColor: ["rgb(246, 197, 45)",'rgb(53, 155, 189)'],
-            //data: [3, 10]
-        //}]
-    //},
-    //options: {}
-//});
+var secChart08 = document.getElementById('sec-08-chart').getContext('2d');
+var chart = new Chart(secChart08, {
+    type: 'pie',
+    data: {
+        labels: ['여성', '남성'],
+        datasets: [{
+            label: 'My First dataset',
+            backgroundColor: ["rgb(246, 197, 45)",'rgb(53, 155, 189)'],
+            data: [3, 10]
+        }]
+    },
+    options: {}
+});
 
 var secChart09 = document.getElementById('sec-09-chart').getContext('2d');
 var chart = new Chart(secChart09, {
