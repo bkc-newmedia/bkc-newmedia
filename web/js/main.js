@@ -169,9 +169,10 @@ var chart = new Chart(secChart0502, {
   }
 });
 
-var labelArray = ['세계','정치','IT과학','연예','생활문화','경제','사회'],
-    positiveData01 = [8.13, 36.21, 86.19, 79.87, 64.96, 71.99, 38.14],
-    negativeData01 = [91.87, 63.79, 13.81, 20.13, 35.04, 28.01, 61.86];
+var labelArray = ['경제','사회','생활문화','세계','연예','정치','IT과학'],
+    positiveData01 = [19.86, 8.51, 35.72, 1.65, 26.50, 7.22, 24.77],
+    negativeData01 = [26.51, 60.69, 26.60, 91.56, 18.27, 61.34, 11.86],
+    neutralData01 = [53.63, 30.80, 37.68, 6.80, 55.23, 31.44, 63.37];
 var secChart06 = document.getElementById('sec-06-chart').getContext('2d');
 var chart = new Chart(secChart06, {
   type: 'horizontalBar',
@@ -188,6 +189,12 @@ var chart = new Chart(secChart06, {
         data: negativeData01,
         backgroundColor: 'rgb(53, 155, 189)',
         borderColor: 'rgb(53, 155, 189)',
+      },
+      {
+        label: '중립적 %',
+        data: negativeData01,
+        backgroundColor: 'rgb(245, 147, 37)',
+        borderColor: 'rgb(245, 147, 37)',
       }
     ]
   },
