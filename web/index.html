@@ -109,12 +109,12 @@
             <ul class="process-ul">
                 <li>
                     <p>sentiment model</p>
-                    <p>f1 score</p>
+                    <p>Accuracy</p>
                     <p>99%</p>
                 </li>
                 <li>
                     <p>category model</p>
-                    <p>f1 score</p>
+                    <p>Accuracy</p>
                     <p>88%</p>
                 </li>
             </ul>
@@ -122,6 +122,7 @@
     </div>
     <div class="analysis scroll">
         <h3 class="box-tit">ANALYSIS</h3>
+        <p>아래의 분석 결과에서 '여성'은 '여성','여자'의 검색 결과를 의미하고 '남성'은 '남성','남자'의 검색 결과를 의미합니다.</p>
         <!-- <div class="sec-01">
             <div class="wrap">
                 <div class="tit-sec">
@@ -135,6 +136,7 @@
             <div class="wrap">
                 <div class="tit-sec">
                     <p>여성은 기사 속에서 긍정적으로 언급될까 부정적으로 언급될까?</p>
+                    <h6>(검색 건수)</h6>
                 </div>
                 <div class="chart-sec">
                     <div>
@@ -153,28 +155,28 @@
             <div class="wrap">
                 <h5>여성 언급 기사 워드 클라우드</h5>
                 <img src="https://via.placeholder.com/1140x500" alt="">
-                <!-- <canvas id="sec-03-chart"></canvas> -->
+                 <canvas id="sec-03-chart"></canvas> 
             </div>
         </div>
         <div class="sec-04">
             <div class="wrap">
                 <h5>남성 언급 기사 워드 클라우드</h5>
                 <img src="https://via.placeholder.com/1140x500" alt="">
-                <!-- <canvas id="sec-04-chart"></canvas> -->
+                 <canvas id="sec-04-chart"></canvas> 
             </div>
         </div>
         <div class="sec-05">
             <div class="wrap">
-                <div class="tit-sec">
-                    <p>기사의 어느 카테고리에서 여성과 남성이 가장 많이 언급될까?</p>
+                <div class="tit-sec" >
+                    <p >기사의 어느 카테고리에서 여성과 남성이 가장 많이 언급될까?</p>
                 </div>
                 <div class="chart-sec">
                     <div><canvas style="width:50vw; height:40vh;" id="sec-05-chart-01"></canvas></div>
                     <div><canvas style="width:50vw; height:40vh;" id="sec-05-chart-02"></canvas></div>
                 </div>
                 <div class="text-sec">
-                    <p><em>여성</em>은 연예 카테고리를 제외한 세계, 정치, IT과학, 생활문화, 경제, 사회 카테고리에서 남성보다 많이 언급되었습니다.</p>
-                    <p><em>남성</em>은 연예 카테고리에서 가장 많이 언급되었습니다.</p>
+                    <p><em>'여성'</em>은 연예 카테고리를 제외한 세계, 정치, IT과학, 생활문화, 경제, 사회 카테고리에서 '남성'보다 큰 비율로 언급되었습니다.</p>
+                    <p><em>'남성'</em>은 연예 카테고리에서 가장 많이 언급되었습니다.</p>
                 </div>
             </div>
         </div>
@@ -192,8 +194,7 @@
                 <div class="con-sec">
                     <h4>각 카테고리에서 <em class="c01">남성</em>의 긍정적, 부정적 언급 비율은?</h4>
                     <canvas id="sec-07-chart"></canvas>
-                    <p>경제, 사회, 생활문화, 정치, IT과학 카테고리에서 남성이 여성보다 부정적으로 언급되었습니다. </p>
-                </div>
+                 </div>
             </div>
         </div>
         <div class="sec-09">
@@ -229,7 +230,7 @@
                         </li>
                         <li>
                             <img src="images/icon2@2x.png" alt="">
-                            <span>네이버뉴스</span>
+                            <span>'여성, 여자, 남성, 남자'가 포함된 기사 </span>
                             <span>2000년도 ~ 2019년도 데이터</span>
                         </li>
                     </ul>
