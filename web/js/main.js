@@ -128,13 +128,13 @@ var chart = new Chart(secChart0501, {
   }
 });
 var labelArray = ['세계','정치','IT과학','연예','생활문화','경제','사회'],
-    positiveData0502 = [9.8
-      ,1.8
-      ,1.3
-      ,30.5
-      ,10.6
+    positiveData0502 = [14.7
       ,2.7
-      ,9.6];
+      ,2.0
+      ,46.0
+      ,16.0
+      ,4.0
+      ,14.5];
 var secChart0502 = document.getElementById('sec-05-chart-02').getContext('2d');
 var chart = new Chart(secChart0502, {
   type: 'pie',
