@@ -355,11 +355,14 @@ h3.box-tit {
 }
 .analysis .sec-02 .chart-sec {
   overflow: hidden;
-  margin-bottom: 230px;
+  margin-bottom: 120px;
 }
 .analysis .sec-02 .chart-sec div {
   float: left;
   width: 50%;
+}
+.analysis .sec-02 .table{
+  padding-bottom: 100px;
 }
 .analysis .sec-02 .chart-sec div canvas {
 }
