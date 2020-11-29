@@ -399,11 +399,16 @@ h3.box-tit {
 }
 .analysis .sec-03 .text-sec p em {
 }
-.analysis .sec-03 .chart-sec {
+.analysis .sec-03 .wordcloud {
+ 
 }
-.analysis .sec-03 .chart-sec div {
-  margin-bottom: 150px;
+.analysis .sec-03 .wordcloud img {
+  margin-left:auto;
+  margin-right:auto;
+ 
 }
+
+
 .analysis .sec-03 {
   background: #fff;
   padding-bottom: 295px;
@@ -804,8 +809,9 @@ h3.box-tit {
   }
   
   .analysis .sec-03 {
-    padding-top: 80px;
-    padding-bottom: 80px;
+
+
+    padding-bottom: 50px;
   }
   
   .analysis .sec-03 h5,
