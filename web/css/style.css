@@ -376,7 +376,7 @@ h3.box-tit {
 .analysis .sec-04 h5 {
   font-size: 1.6em;
   font-weight: 500;
-  margin-bottom: 105px;
+  margin-bottom: 105--px;
   text-align: left;
   position: relative;
   z-index: 1;
@@ -385,7 +385,7 @@ h3.box-tit {
 .analysis .sec-04 h5::before {
   content: "";
   display: block;
-  width: 270px;
+  width: 500px;
   height: 25px;
   background: #ffdf7a;
   position: absolute;
@@ -398,6 +398,15 @@ h3.box-tit {
 .analysis .sec-03 .text-sec p {
 }
 .analysis .sec-03 .text-sec p em {
+}
+.analysis .sec-03 .chart-sec {
+}
+.analysis .sec-03 .chart-sec div {
+  margin-bottom: 150px;
+}
+.analysis .sec-03 {
+  background: #fff;
+  padding-bottom: 295px;
 }
 .analysis .sec-04 {
   background: #fff;
@@ -681,7 +690,7 @@ h3.box-tit {
     margin-top: 50px;
   }
   .analysis .sec-03 {
-    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .analysis .sec-05 {
     padding-bottom: 50px;
@@ -699,11 +708,7 @@ h3.box-tit {
   .process-box .process-ul li:nth-child(2) {
     margin-bottom: 0;
   }
-  .sec-03 img,
-  .sec-04 img {
-    width: 100%;
-  }
-}
+  
 @media (max-width: 999px) {
   .wrap {
     width: 100%;
@@ -797,10 +802,12 @@ h3.box-tit {
   .analysis .sec-02 .chart-sec {
     margin-bottom: 50px;
   }
+  /*
   .analysis .sec-03 {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+  */
   .analysis .sec-03 h5,
   .analysis .sec-04 h5,
   .analysis .sec-05 h6 {
@@ -814,6 +821,8 @@ h3.box-tit {
   }
 
   .analysis .sec-05 {
+
+
     padding-bottom: 50px;
   }
   .analysis .sec-04 {
