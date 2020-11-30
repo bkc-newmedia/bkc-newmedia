@@ -180,6 +180,143 @@
                  <canvas id="sec-04-chart"></canvas> 
             </div>
         </div>-->
+        
+               
+        <div class="sec-05">
+            <div class="wrap">
+                <div class="tit-sec" style="margin-top: 150px;" >
+                    <p >기사의 어느 카테고리에서 여성과 남성이 가장 많이 언급될까?</p>
+                </div>
+                <div class="chart-sec">
+                    <div><canvas style="width:50vw; height:40vh;" id="sec-05-chart-01"></canvas></div>
+                    <div><canvas style="width:50vw; height:40vh;" id="sec-05-chart-02"></canvas></div>
+                </div>
+                <div class="text-sec">
+                    <p><em>'여성'</em>은 연예 카테고리를 제외한 세계, 정치, IT과학, 생활문화, 경제, 사회 카테고리에서 '남성'보다 큰 비율로 언급되었습니다.</p>
+                    <p><em>'남성'</em>은 연예 카테고리에서 가장 많이 언급되었습니다.</p>
+                </div>
+            </div>
+        </div>
+        <div class="sec-06 sec">
+            <div class="layer-box">
+                <div class="con-sec">
+                    <h4>각 카테고리별 <em class="c01">여성</em>기사 긍부정 비율</h4>
+                    <canvas id="sec-06-chart"></canvas>
+                </div>
+            </div>
+        </div>
+         <div class="sec-03">
+            <div class="wrap">
+<!-- carousel를 구성할 영역 설정 -->
+                <h5>여성 언급 뉴스 카테고리별 긍정 워드 클라우드</h5>
+                <div class = "wordcloud">
+                <!-- carousel를 사용하기 위해서는 class에 carousel와 slide 설정한다. -->
+                <!-- carousel는 특이하게 id를 설정해야 한다.-->
+                    <div id="carousel-example-generic2" class="carousel slide" >
+                <!-- carousel의 지시자 -->
+                <!-- 지시자라고는 하는데 ol태그의 class에 carousel-indicators를 넣는다. -->
+                        <ol class="carousel-indicators">
+                        <!-- li는 이미지 개수만큼 추가하고 data-target은 carousel id를 가르킨다. -->
+                        <!-- data-slide-to는 순서대로 0부터 올라가고 0은 active를 설정한다. -->
+                        <!-- 딱히 이 부분은 옵션별로 설정하게 없다. -->
+                        <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic2" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic2" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic2" data-slide-to="4"></li>
+                        <li data-target="#carousel-example-generic2" data-slide-to="5"></li>
+                        <li data-target="#carousel-example-generic2" data-slide-to="6"></li>
+                        </ol>
+                <!-- 실제 이미지 아이템 -->
+                <!-- class는 carousel-inner로 설정하고 role은 listbox에서 설정한다. -->
+                        <div class="carousel-inner" role="listbox">
+                <!-- 이미지의 개수만큼 item을 만든다. 중요한 포인트는 carousel-indicators의 li 태그 개수와 item의 개수는 일치해야 한다. -->
+                            <div class="item active">
+                <!-- 아미지 설정- -->
+                                <img src="./images/여_긍정_카테고리0_세계.jpg" style ="align:center;">
+                <!-- 캡션 설정 (생략 가능) -->
+                <!-- 글자 색은 검은색 -->
+                                <div class="carousel-caption" style="color:black;">
+                             
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="./images/여_긍정_카테고리1_정치.jpg">
+                                <div class="carousel-caption" style="color:black;">
+                
+                                </div>
+                            </div>
+                             <div class="item">
+                                <img src="./images/여_긍정_카테고리2_IT과학.jpg">
+                                <div class="carousel-caption" style="color:black;">
+                
+                                </div>
+                            </div>
+                             <div class="item">
+                                <img src="./images/여_긍정_카테고리3_연예.jpg">
+                                <div class="carousel-caption" style="color:black;">
+                
+                                </div>
+                            </div>
+                             <div class="item">
+                                <img src="./images/여_긍정_카테고리4_생활문화.jpg">
+                                <div class="carousel-caption" style="color:black;">
+                
+                                </div>
+                            </div>
+                             <div class="item">
+                                <img src="./images/여_긍정_카테고리5_경제.jpg">
+                                <div class="carousel-caption" style="color:black;">
+                
+                                </div>
+                            </div>
+                             <div class="item">
+                                <img src="./images/여_긍정_카테고리6_사회.jpg">
+                                <div class="carousel-caption" style="color:black;">
+                
+                                </div>
+                            </div>
+                        </div> <!--listbox-->
+                <!-- 왼쪽 화살표 버튼 -->
+                <!-- href는 carousel의 id를 가르킨다. -->
+                        <a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
+                <!-- 왼쪽 화살표 -->
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        </a>
+                <!-- 오른쪽 화살표 버튼 -->
+                <!-- href는 carousel의 id를 가르킨다. -->
+                        <a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
+                <!-- 오른쪽 화살표 -->
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        </a>
+                    </div><!--slide-->
+                </div>
+            </div>
+        </div>
+               <script>
+                $(function(){
+                // 이미지 슬라이드 컨트롤를 사용하기 위해서는 carousel를 실행해야한다.
+                $('#carousel-example-generic2').carousel({
+                // 슬리아딩 자동 순환 지연 시간
+                // false면 자동 순환하지 않는다.
+                interval: 300000,
+                // hover를 설정하면 마우스를 가져대면 자동 순환이 멈춘다.
+                pause: "hover",
+                // 순환 설정, true면 1 -> 2가면 다시 1로 돌아가서 반복
+                wrap: true,
+                // 키보드 이벤트 설정 여부(?)
+                keyboard : true
+                });
+                });
+                </script>
+        <div class="sec-07 sec">
+            <div class="layer-box">
+                <div class="con-sec">
+                    <h4>각 카테고리별 <em class="c01">남성</em>기사 긍부정 비율</h4>
+                    <canvas id="sec-07-chart"></canvas>
+                 </div>
+            </div>
+        </div>
         <div class="sec-03">
             <div class="wrap">
 <!-- carousel를 구성할 영역 설정 -->
@@ -284,38 +421,6 @@
                 });
                 });
                 </script>
-               
-        <div class="sec-05">
-            <div class="wrap">
-                <div class="tit-sec" style="margin-top: 150px;" >
-                    <p >기사의 어느 카테고리에서 여성과 남성이 가장 많이 언급될까?</p>
-                </div>
-                <div class="chart-sec">
-                    <div><canvas style="width:50vw; height:40vh;" id="sec-05-chart-01"></canvas></div>
-                    <div><canvas style="width:50vw; height:40vh;" id="sec-05-chart-02"></canvas></div>
-                </div>
-                <div class="text-sec">
-                    <p><em>'여성'</em>은 연예 카테고리를 제외한 세계, 정치, IT과학, 생활문화, 경제, 사회 카테고리에서 '남성'보다 큰 비율로 언급되었습니다.</p>
-                    <p><em>'남성'</em>은 연예 카테고리에서 가장 많이 언급되었습니다.</p>
-                </div>
-            </div>
-        </div>
-        <div class="sec-06 sec">
-            <div class="layer-box">
-                <div class="con-sec">
-                    <h4>각 카테고리별 <em class="c01">여성</em>기사 긍부정 비율</h4>
-                    <canvas id="sec-06-chart"></canvas>
-                </div>
-            </div>
-        </div>
-        <div class="sec-07 sec">
-            <div class="layer-box">
-                <div class="con-sec">
-                    <h4>각 카테고리별 <em class="c01">남성</em>기사 긍부정 비율</h4>
-                    <canvas id="sec-07-chart"></canvas>
-                 </div>
-            </div>
-        </div>
         <div class="sec-09">
             <div class="wrap">
                 <h4>여성 남성 <em class="c01">긍정</em> 언급 연도별 추이 (%)</h4>
