@@ -21,7 +21,7 @@ var chart = new Chart(secChart0201, {
         datasets: [{
             label: 'My First dataset',
             backgroundColor: ["rgb(246, 197, 45)",'rgb(245, 147, 37)', 'rgb(53, 155, 189)' ],
-            data: [1189177, 3072437, 2221313]
+            data: [1189177, 2221313, 3072437]
         }]
     },
     options: {
@@ -296,7 +296,7 @@ var chart = new Chart(secChart10, {
             label: '여성',
             backgroundColor: ["rgb(246, 197, 45)"],
             borderColor: "rgb(246, 197, 45)",
-            
+
             data: [51.99, 49.93, 54.51, 57.33, 56.7, 51.23, 50.0, 50.37, 48.9, 45.29, 43.35, 41.89, 45.48, 43.91, 42.49, 44.94, 49.39, 48.48, 50.76, 53.84
             ],
             fill: false
@@ -329,7 +329,7 @@ var chart = new Chart(secChart10, {
           return false;
       });
   });
-  
+
   $(window).scroll(function () {
       var scltop = $(window).scrollTop();
       $.each($contents, function (idx, item) {

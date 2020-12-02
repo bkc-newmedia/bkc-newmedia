@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+﻿@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 /* font-family: 'Source Sans Pro', sans-serif; */
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap");
@@ -408,6 +408,11 @@ h3.box-tit {
 }
 .analysis .sec-03 .text-sec p em {
 }
+.analysis .sec-03 .tableinfo{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .analysis .sec-03 .wordcloud {
  
 }
