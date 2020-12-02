@@ -381,6 +381,15 @@ h3.box-tit {
   position: relative;
   z-index: 1;
 }
+
+.analysis .sec-03 h6 {
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-bottom: 105--px;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
 .analysis .sec-03 h5::before,
 .analysis .sec-04 h5::before {
   content: "";
@@ -824,6 +833,16 @@ h3.box-tit {
     line-height: inherit;
     padding: 10px 15px;
     font-size: 1.5em;
+  }
+  .analysis .sec-03 h6
+ {
+    margin-bottom: 40px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    line-height: inherit;
+    padding: 10px 15px;
+    font-size: 1.3em;
   }
 
   .analysis .sec-05 {
