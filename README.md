@@ -1,8 +1,16 @@
-# 'New'-media
-
-# Introduction
-여성가족부 ‘버터나이프크루 2기’에 선정되어 예산 지원을 받아 진행된 프로젝트입니다. 뉴스 속 성별 표현 수치화를 통한 성평등 의식 개선을 목표로 합니다. 딥러닝으로 남성 또는 여성이 언급된 기사의 긍부정 및 카테고리를 예측 후 분석하고, 그 차이와 자주 사용된 표현을 시각화 하였습니다.
-
-# Code Expanation
-
-
+![0001](https://github.com/bkc-newmedia/bkc-newmedia/blob/master/image/0001.png)
+![0002](https://github.com/bkc-newmedia/bkc-newmedia/blob/master/image/0002.png)
+![0003](https://github.com/bkc-newmedia/bkc-newmedia/blob/master/image/0003.png)
+![0004](https://github.com/bkc-newmedia/bkc-newmedia/blob/master/image/0004.png)
+![0005](https://github.com/bkc-newmedia/bkc-newmedia/blob/master/image/0005.png)
+![0006](https://github.com/bkc-newmedia/bkc-newmedia/blob/master/image/0006.png)
+![0007](https://github.com/bkc-newmedia/bkc-newmedia/blob/master/image/0007.png)
+![0008](https://github.com/bkc-newmedia/bkc-newmedia/blob/master/image/0008.png)
+![0009](https://github.com/bkc-newmedia/bkc-newmedia/blob/master/image/0009.png)
+![0010](https://github.com/bkc-newmedia/bkc-newmedia/blob/master/image/0010.png)
+![0011](https://github.com/bkc-newmedia/bkc-newmedia/blob/master/image/0011.png)
+![0012](https://github.com/bkc-newmedia/bkc-newmedia/blob/master/image/0012.png)
+![0013](https://github.com/bkc-newmedia/bkc-newmedia/blob/master/image/0013.png)
+![0014](https://github.com/bkc-newmedia/bkc-newmedia/blob/master/image/0014.png)
+![0015](https://github.com/bkc-newmedia/bkc-newmedia/blob/master/image/0015.png)
+![0016](https://github.com/bkc-newmedia/bkc-newmedia/blob/master/image/0016.png)
